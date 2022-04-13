@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Calibri;
+    font-size: 100%;
+}
+
+.app-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    padding-bottom: 10px;
+}
+
+.app-footer {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    color: #5f5a5a;
+}
+
+.characters {
+    width: 40%;
+}
+
+/*.characters-container {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    flex-grow: 1;*/
+/*    align-items: flex-end;*/
+/*}*/
+
+/*.characters-container figure {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 300px;*/
+/*}*/
+
+/*.character-image img {*/
+/*    width: 300px;*/
+/*    height: auto;*/
+/*}*/
+
+/*.character-name{*/
+/*    overflow: hidden;*/
+/*    white-space: nowrap;*/
+/*    text-overflow: ellipsis;*/
+/*}*/
+
+@media screen and (max-width: 900px) {
+    .character-image img {
+        width: 100px;
+    }
+}

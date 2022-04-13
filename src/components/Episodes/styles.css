@@ -1,0 +1,26 @@
+.app-buttons {
+    margin-left: 10px;
+    padding: 1.5%;
+    color: white;
+    background: #5bc0de;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.app-buttons:hover {
+    background: #2189a4;
+}
+
+.episodes-name {
+    width: 30%;
+    margin-left: 10px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.episodes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
