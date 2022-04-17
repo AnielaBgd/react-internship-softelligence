@@ -5,10 +5,10 @@ import './styles.css';
 
 const Characters = (props) => {
   const {characterList} = props;
-
   const classes = cn('characters-container');
   return (
-    <div className="characters">
+    <div className={classes}>
+      {!characterList.length ? 'Character list placeholder' : ''}
       {
         characterList.map(({id, name, image}) => {
           return (
