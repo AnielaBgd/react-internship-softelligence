@@ -5,7 +5,6 @@ const useFetchCharacters = () => {
   const [characters, setCharacters] = useState([]);
 
   const fetchCharacters = (ids) => {
-    //https://rickandmortyapi.com/api/character/1,2,3//`https://rickandmortyapi.com/api/character/${ids}`
     setIsLoading(true);
     setCharacters([]);
     fetch(`https://rickandmortyapi.com/api/character/${ids}`)

@@ -1,9 +1,8 @@
-/*.episodes-wrapper {*/
-/*    display: flex;*/
-/*}*/
-/*.episodes-wrapper > :first-child {*/
-/*    width: 10%;*/
-/*}*/
-/*.episodes-wrapper > :last-child {*/
-/*    width: 60%;*/
-/*}*/
+.episodes-and-characters {
+    display: flex;
+}
+
+.episodes-wrapper {
+    width: 40%;
+}
+
